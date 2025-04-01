@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="128.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style/index.css">
+</head>
+<body>
+    <section class="center">
+        <div class="content">
+            <h1>Contador de Dias!</h1>
+            <span>Contador de dias simples e rápido!</span>
+
+            <div class="divide"></div>
+            <form>
+                
+                <div class="select">
+                    <label for="select">Tipo de contagem</label>
+                    <select class="input"  name="select" id="select">
+                        <option value="null">Escolha uma opção</option>
+                        <option value="dias">Data final</option>
+                        <option value="final">Quantos dias</option>
+                    </select>
+                </div>
+                <div class="data">
+                    <label for="data">Entre com a data escolhida:</label>
+                    <input  class="input"  type="date" id="data" />
+                </div>
+                <div class="soma">
+                    <input id="date" class="input some"  type="date" placeholder="Entre com a data final" >
+                    <input id="text" class="input some" type="text" placeholder="Entre com o total de dias">
+                </div>
+
+                <button>contar dias</button>
+            </form>
+
+            <div class="result" id="result">
+                <!-- <h2>resultado</h2>
+                <div>
+                    <span>aqui vai o resultado!</span>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <script src="./script/index.js"></script>
+</body>
+</html>

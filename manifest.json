@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Contagem de dias",
+    "description": "App criado para contagem de dias apartir de uma data expecifica!",
+    "version": "1.1",
+    "permissions": ["activeTab", "scripting"],
+    "action": {
+        "default_popup": "index.html"
+    },
+    "icons": {
+    "128": "128.png"
+    }
+}
